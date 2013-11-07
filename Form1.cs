@@ -91,7 +91,7 @@ namespace OOGSM
 
         private void WisselUI()
         {
-            // verandert de Enabled property van een aantal buttos en textboxen
+            // verandert de Enabled property van een aantal buttons en textboxen
             foreach (Control c in new Control[] { btnDeelnemers, btnAntwoorden, txtAantal, txtVraag1, txtVraag2 })
                 c.Enabled = !c.Enabled;
         }
