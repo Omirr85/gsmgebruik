@@ -29,10 +29,9 @@ namespace OOGSM
         // de huidige resultaten
         public String Resultaat()
         {
-            String s = "- # ja: " + ja.ToString() + 
+            return "- # ja: " + ja.ToString() + 
                 "\n- # nee: " + nee.ToString() +
                 "\n- # onverschillig: " + neutraal.ToString();
-            return s;
         }
 
         // resultaat specifiek voor het gsm gebruik
